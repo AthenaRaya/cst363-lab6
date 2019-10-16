@@ -12,12 +12,15 @@ app.get("/", function(req, res){
   
 });
 app.get("/mercury", function(req, res){
-    res.send("This will be Mercury web page!");
+    res.render ("index.mercury");
 });
 
 app.get("/venus", function(req, res){
-  res.send("This will be Venus web page!");
+  res.render("index.venus");
 });
+app.get("/earth",function(req,res){
+  res.render("index.earth");
+})
 app.listen(process.env.PORT,process.env.IP,function(){
   console.log("Running Express Server...")
 });
