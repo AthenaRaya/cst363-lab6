@@ -18,6 +18,6 @@ app.get("/mercury", function(req, res){
 app.get("/venus", function(req, res){
   res.send("This will be Venus web page!");
 });
-app.listen(process.env.port,process.env.IP,function(){
+app.listen(process.env.PORT,process.env.IP,function(){
   console.log("Running Express Server...")
 });
