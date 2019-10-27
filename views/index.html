@@ -1,10 +1,17 @@
 <% include partials/header.ejs %>
+  
   <h1> Welcome to the Solar System Site!</h1><br>
   <p>Click on a planet to know more about it:</p>
-  <a href ="/mercury"> Mercury</a> <br>
-  <a href ="/Venus"> Venus</a> <br>
-  <a href ="/Earth"> Earth</a> <br> 
-
   
-  <img src ="/img/solar-system.png" alt="The Solar System" width = "fit" height="400" />
-<% include partials/footer %>
+  <nav><!-- defines a semantic section as a navigation menu-->
+    <strong> <a href ="/index">Home</a></strong><br>
+      <a href ="/mercury"> Mercury</a> <br>
+      <a href ="/Venus"> Venus</a> <br>
+      <a href ="/Earth"> Earth</a> <br> 
+      <a href ="Saturn" >Saturn</a> <br> 
+  </nav> 
+ <br /> <br />
+  <figure>
+  <img src ="/img/solar-system.png" alt="The Solar System" width = "500" height="300" />
+ </figure>
+<% include partials/footer.ejs %>

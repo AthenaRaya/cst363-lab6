@@ -1,4 +1,25 @@
 body{
-  background-color: lightblue; 
+  background-color: darkgray; 
   text-align: center; 
+}
+P{
+  text-emphasis: bold;
+}
+nav a{ 
+  display: inline;
+  list-style-type: none;
+
+  text-decoration: none;
+  text-shadow: 3px 2px orange;
+  font-size:2em;
+  color: Yellow;
+
+ 
+}
+nav a:hover{
+
+  border-bottom:2px solid;
+  font-size: 2em;
+  transition: .9s;
+  color: black;
 }
