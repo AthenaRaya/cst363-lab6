@@ -1,20 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Solar System </title>
-</head>
+<% include partials/header.ejs %>
 <body>
   <h1>
      Welcome to Earth
   </h1>
     <nav><!-- defines a semantic section as a navigation menu-->
-   <a href ="/index">Home</a><br>
+   <a href ="/">Home</a><br>
      <a href ="/mercury"> Mercury</a><br>
      <a href ="/Venus"> Venus</a> <br>
    <strong><a href ="/Earth"> Earth</a></strong> <br> 
       <a href ="Saturn" >Saturn</a> <br> 
   </nav>
-  <img src ="/img/earth.jpg" alt="Mercury" width = "fit" height="400" />
-</body>
-</html>
+  <img src ="/img/earth.jpg" alt="Earth" width = "fit" height="400" />
+   <h2>
+    Earth is the third planet from the Sun and is the largest of the terrestrial planets. The Earth is the only planet in our solar system not to be named after a Greek or Roman deity. The Earth was formed approximately 4.54 billion years ago and is the only known planet to support life.
+  </h2>
+<% include partials/footer.ejs %>
